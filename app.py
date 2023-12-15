@@ -1,6 +1,4 @@
-from flask import Flask, request,jsonify
-from random import choice
-import sqlite3
+from flask import Flask, request ,jsonify
 from test import quotes, create, about_me, get_all_post, get_post_by_id, db_data_addiction, insert_data ,delete_data, update_data
 from datetime import datetime
 
